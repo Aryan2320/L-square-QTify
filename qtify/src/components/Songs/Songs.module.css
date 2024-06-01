@@ -1,0 +1,17 @@
+
+.tabsTitle {
+    font: poppins;
+    cursor: pointer;
+    padding: 0px 30px;
+    margin-bottom: 5px;
+  }
+  .horizontalBorder1 {
+    border: 1px solid var(--primary-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .horizontalBorder2 {
+    border: 1px solid var(--primary-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }

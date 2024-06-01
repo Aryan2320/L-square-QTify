@@ -1,0 +1,31 @@
+.newHeader {
+    display: flex;
+    justify-content: space-between;
+    font: poppins;
+    cursor: pointer;
+    padding: 0px 30px;
+    align-items: baseline;
+    color:white;
+  }
+  .newAlbums {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .newalbumsWrapper {
+    margin-top: 18px;
+    margin-left: 50px;
+    margin-bottom: 18px;
+    margin-right: 40px;
+  }
+  .newToggletext {
+    color:green;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width:85px;
+    height: 30px;
+    left: 1291px;
+    
+  }

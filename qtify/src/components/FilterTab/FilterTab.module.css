@@ -1,0 +1,13 @@
+#filter-tabs {
+    margin-bottom: 20px;
+  }
+  .filtertabsWrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .songsWrapper {
+    gap: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  

@@ -1,14 +1,26 @@
-// import logo from './logo.svg';
+
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import StyledEngineProvider from "@mui/material/StyledEngineProvider";
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
+import TopAlbums from "./components/TopAlbums/TopAlbums";
+import NewAlbums from "./components/NewAlbums/NewAlbums";
+ import Hero from "./components/Hero/Hero";
+ import Songs from "./components/Songs/Songs";
+
+
 
 function App() {
-  return (
-    <div className="App">
-     <Navbar />
-     <Hero />
-    </div>
+  return(
+  <StyledEngineProvider injectFirst>
+    <Navbar />
+    <Hero/>
+    <TopAlbums/>
+    <NewAlbums/>
+    <Songs/>
+  </StyledEngineProvider>
+      
+   
   );
 }
 
